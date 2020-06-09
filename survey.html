@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" type="text/css" href="survey.css"/>
+ </head>
+    <body>
+        <h1 id="title">Survey Form</h1>
+        <p id="description">Thank You for filling up this survey form and helping us to improve survey</p>
+        <form id="survey-form">
+        <label id="name-label">Name
+            <br>
+            <input type="text" id="name" required autofocus placeholder="Enter your name here...."/>
+        </label>  
+        <label id="email-label">Email
+            <br>
+            <input type="email" id="email" required autofocus placeholder="abcd@example.com"/>
+        </label>
+        <label id="number-label">Age <span>(optional)</span>
+            <br>
+            <input type="number" id="number" optional autofocus placeholder="Age" min="10" max="60"/>
+        </label>
+        <label id="dropdown-label">Profession that describes you best:
+            <br>
+                <select id="dropdown">
+                <option value="">Professions</option>
+                <option value="Student">Student</option>
+                <option value="Teacher">Teacher</option>
+                <option value="Learner">Learner</option>
+                <option value="Expert">Expert</option>
+                <option value="Other">Other</option>
+                </select>
+        </label>
+        <label id="radio-label">Which area you like the most: 
+            <br>
+            <input type="radio" name="area" value="Hilly">
+            <label>Hilly</label><br>
+            <input type="radio" name="area" value="Desert">
+            <label>Desert</label><br>
+            <input type="radio" name="area" value="Beach">
+            <label>Beach</label><br>
+            <input type="radio" name="area" value="other">
+            <label>Other</label><br><br>
+        </label>
+        <label id="dropdown-label">Your experience in your profession:
+            <br>
+                <select id="dropdown">
+                <option value="">Experience</option>
+                <option value="Student">Fresher</option>
+                <option value="Teacher">Expert</option>
+                <option value="Learner">Medium</option>
+                </select>
+        </label>
+        <label id="checkbox-label">Which qualities make you outstanding <span>(select all that applies)</span> : 
+            <br>
+            <input type="checkbox" name="quality" value="Hardwork">
+            <label>I am hard-working.</label><br>
+            <input type="checkbox" name="quality" value="Smart">
+            <label>I work smartly.</label><br>
+            <input type="checkbox" name="quality" value="puctuality">
+            <label>I am punctual.</label><br>
+            <input type="checkbox" name="quality" value="co-operation">
+            <label>I am good at co-operating with my colleagues.</label><br>
+            <input type="checkbox" name="quality" value="determination">
+            <label>I am determined to achieve goals.</label><br>
+            <input type="checkbox" name="quality" value="good learner">
+            <label>I am a good learner.</label><br>
+            <input type="checkbox" name="quality" value="enthusiastic">
+            <label>I am always enthusiastic to learn new things.</label><br>
+            <input type="checkbox" name="quality" value="flexible">
+            <label>I am able to mould myself according to situations.</label><br>
+            <input type="checkbox" name="quality" value="communication skill">
+            <label>I have very efficient communication skill.</label><br><br>
+        </label>
+        <label id="comment-label">Tell us something more about you:
+            <br>
+            <textarea id="txtarea">For additional comments....</textarea>
+            </label>                                                    
+            <button id="submit">Submit</button>
+            <footer>--Survey form by Komal</footer>
+        </form>
+    
+    </body>
+</html>

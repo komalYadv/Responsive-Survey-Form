@@ -1,0 +1,171 @@
+body{
+background-image:url("survey.jpeg");
+background-blend-mode:screen;
+background-size:cover;
+}
+#title{
+    text-align:center;
+    font-family:cursive;
+    color:white;
+}
+#description{
+color:white;
+text-align:center;
+font-family:Lucida Calligraphy;
+font-size:1.24vw;
+}
+#survey-form{
+max-width:55vw;
+display:block;
+margin-right:auto;
+margin-left:auto;
+background-color:#733720;
+padding-top:2.9vw;
+border-radius:15px;
+padding-bottom:2.9vw;
+}
+#name-label{
+color:white;
+font-family:Lucida Sans;
+margin-left:11%;
+font-size:1.63vw;
+}
+#email-label{
+color:white;
+font-family:Lucida Sans;
+margin-left:11%;
+font-size:1.63vw;
+}
+#number-label{
+color:white;
+font-family:Lucida Sans;
+margin-left:11%;
+font-size:1.63vw;
+}
+#dropdown-label{
+color:white;
+font-family:Lucida Sans;
+margin-left:11%;
+font-size:1.43vw;
+}
+#radio-label{
+color:white;
+font-family:Lucida Sans;
+margin-left:11%;
+font-size:1.42vw;
+}
+#checkbox-label{
+color:white;
+font-family:Lucida Sans;
+margin-left:11%;
+font-size:1.42vw;
+}
+#comment-label{
+color:white;
+font-family:Lucida Sans;
+margin-left:11%;
+font-size:1.43vw;
+
+}
+#name{
+padding:0.65vw;
+border:2px solid white;
+border-radius:5px;
+width:75%;
+display:block;
+margin-right:auto;
+margin-left:auto;
+margin-top:1%;
+margin-bottom:4%;
+
+}
+#email{
+padding:0.65vw;
+border:2px solid white;
+border-radius:5px;
+width:75%;
+display:block;
+margin-right:auto;
+margin-left:auto;
+margin-top:1%;
+margin-bottom:4%;
+
+}
+#number{
+padding:0.65vw;
+border:2px solid white;
+border-radius:5px;
+width:75%;
+display:block;
+margin-right:auto;
+margin-left:auto;
+margin-top:1%;
+margin-bottom:4%;
+}
+#dropdown{
+padding:0.65vw;
+border:2px solid white;
+border-radius:5px;
+width:78%;
+display:block;
+margin-right:auto;
+margin-left:auto;
+margin-top:1%;
+margin-bottom:4%;
+font-size:1.11vw;
+}
+#txtarea{
+padding:1.5vw;
+border:2px solid white;
+border-radius:5px;
+width:69%;
+display:block;
+margin-right:auto;
+margin-left:auto;
+margin-top:1%;
+margin-bottom:4%;
+color:gray;
+font-size:1.30vw;
+}
+::placeholder{
+font-size:1.17vw;
+}
+
+span{
+font-size:1.30vw;
+}
+select{
+color:gray;
+}
+input[type="radio"]{
+margin-left:12%;
+margin-top:2%;
+}
+input[type="checkbox"]{
+margin-left:12%;
+margin-top:2%;
+}
+input[type="textarea"]::placeholder{
+font-size:1.37vw;
+}
+
+#submit{
+cursor:pointer;
+color:white;
+background-color: #4CAF50;
+border:2px solid #4CAF50;
+border-radius:5px;
+width:75%;
+margin-left:12.5%;
+padding:0.5vw;
+font-size:1.56vw;  
+margin-bottom:2.5%;
+}
+
+footer{
+color:white;
+font-family:lucida handwriting;
+text-align:right;
+margin-right:1.5%;
+margin-bottom:-2.9%;
+}
